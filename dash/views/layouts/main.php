@@ -21,9 +21,9 @@ AppAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
-    <link type="text/css" rel="stylesheet" href="/admin/css/bootstrap-toggle.min.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="/admin/css/main.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="/admin/css/dashboard.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="/css/bootstrap-toggle.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="/css/main.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="/css/dashboard.css"  media="screen,projection"/>
 </head>
 <body>
 <?php $this->beginBody() ?>
@@ -46,8 +46,7 @@ AppAsset::register($this);
     </div>   
 
 <?php $this->endBody() ?>
-    <script type="text/javascript" src="/admin/js/bootstrap-toggle.min.js"></script>
-     <script type="text/javascript" src="/admin/js/userAuth.js"></script>
+    <script type="text/javascript" src="/js/bootstrap-toggle.min.js"></script>
 </body>
 </html>
 <?php $this->endPage() ?>
