@@ -4,7 +4,7 @@ header('X-UA-Compatible: IE=10');
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-use backend\assets\AppAsset;
+
 use yii\helpers\Html;
 
 use yii\widgets\Breadcrumbs;
